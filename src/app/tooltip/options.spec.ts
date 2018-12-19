@@ -2,7 +2,7 @@ import { defaultOptions } from './options';
 
 describe('tooltip-default-options', () => {
     it('should have sensible default values', () => {
-        const config = defaultTooltipOptions;
+        const config = defaultOptions;
 
         expect(config.trigger).toBe('hover');
         expect(config.placement).toBe('top');
